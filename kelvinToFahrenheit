@@ -1,0 +1,13 @@
+//kelvin temp stored in kelvinTemp variable 
+var kelvinTemp = 301;
+
+//kelvin temp coverted tp celcius and stored in celciusTemp variable
+var celciusTemp = kelvinTemp - 273.15;
+
+//fahrenheit temp to nearest integer and stored in farenheitTemp variable
+var farenheitTemp = Math.round(celciusTemp * (9/5) + 32);
+
+//variable to display current temperature in fahrenheit
+var currentTemp = 'The temperature is' + ' ' +  farenheitTemp + ' ' + 'degrees Fahrenheit.'
+
+console.log(currentTemp);

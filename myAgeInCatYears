@@ -1,0 +1,25 @@
+//my current age stored in myAge variable
+var myAge = 37;
+
+//early years of cats age stored in earlyYears variable
+var earlyYears = 2;
+
+//multiply earlyYears by 25 to account for early growth
+earlyYears *= 25
+
+//later years of growth multiplied by my current age
+var laterYears = myAge - 2;
+
+//multiple later years bny 4 to account fot later growth
+laterYears *= 4;
+
+//my age calculated in cat years
+var myAgeInCatYears = earlyYears + laterYears
+
+//my name stored in variable myName
+var myName = 'Chiraag' + ' ' + 'Shah'
+
+//My age in cat years in a sentance
+var displayCatAge = "My name is " + myName + ". I am " + myAge + " years old in human years which is " + myAgeInCatYears + " years old in cat years."
+
+console.log (displayCatAge);
